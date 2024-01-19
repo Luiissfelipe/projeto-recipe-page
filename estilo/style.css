@@ -11,7 +11,11 @@
 }
 
 *{
+    color: rgba(0, 0, 0, 0.65);
+    text-align: justify;
+    font-weight: 500;
     font-family: 'outfit';
+    line-height: 1.5em;
     margin: 0px;
     padding: 0px;
 }
@@ -19,55 +23,59 @@
 header #imagem{
     background: black url(../imagens/image-omelette.jpeg) no-repeat;
     background-size: cover;
-    height: 150px;
+    height: 200px;
 }
 
 section{
-    padding: 20px;
+    padding: 30px;
 }
 
 section h1{
+    color: black;
     font-family: 'young-serif';
-}
-
-section p{
-    margin: 20px 0px;
+    font-size: 2.3em;
+    line-height: 1em;    
+    margin-bottom: 20px;
 }
 
 aside{
     background-color: rgba(146, 67, 99, 0.05);
-    margin: 0px 20px;
+    margin: 0px 30px;
     padding: 20px;
 }
 
 aside h3{
     color: rgba(146, 67, 99);
-    margin-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 aside li{
-    color: rgba(0, 0, 0, 0.6);
-    margin: 10px 10px 0px;
+    margin: 10px 20px 0px;
 }
 
 aside li::marker{
     color: rgba(146, 67, 99);
 }
 
+strong{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
 article{
-    padding: 20px;
+    padding: 30px;
 }
 
 article h2{
     color: #86483b;
     font-family: 'young-serif';
     font-weight: normal;
-    font-size: 1.6em;
-    margin: 20px 0px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
 article li{
-    color: rgba(0, 0, 0, 0.7);
     margin: 10px 30px 0px;
 }
 
@@ -78,9 +86,39 @@ article li::marker{
 
 article hr{
     border-color: rgba(134, 71, 59, 0.2);
-    margin: 20px;
+    width: 100%;
+    margin: 30px auto;
 }
 
 article table{
-    margin: 20px;
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table tr{
+    border-bottom: 1px solid rgba(134, 71, 59, 0.2);
+}
+
+table td{
+    padding: 10px;
+}
+
+table #numeros{
+    color: #86483b;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #86483b;
+    padding: 10px 30px;
+}
+
+footer .attribution{
+    color: white;
+    font-weight: normal;
+}
+
+footer a{
+    color: white;
 }
