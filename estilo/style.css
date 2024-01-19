@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Outfit;
+    src: url(../fontes/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Young-serif;
+    src: url(../fontes/young-serif/YoungSerif-Regular.ttf);
+}
+
+*{
+    font-family: 'outfit';
+    margin: 0px;
+    padding: 0px;
+}
+
+header #imagem{
+    background: black url(../imagens/image-omelette.jpeg) no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+section{
+    padding: 20px;
+}
+
+section h1{
+    font-family: 'young-serif';
+}
+
+section p{
+    margin: 20px 0px;
+}
+
+aside{
+    background-color: rgba(146, 67, 99, 0.05);
+    margin: 0px 20px;
+    padding: 20px;
+}
+
+aside h3{
+    color: rgba(146, 67, 99);
+    margin-bottom: 10px;
+}
+
+aside li{
+    color: rgba(0, 0, 0, 0.6);
+    margin: 10px 10px 0px;
+}
+
+aside li::marker{
+    color: rgba(146, 67, 99);
+}
+
+article{
+    padding: 20px;
+}
+
+article h2{
+    color: #86483b;
+    font-family: 'young-serif';
+    font-weight: normal;
+    font-size: 1.6em;
+    margin: 20px 0px;
+}
+
+article li{
+    color: rgba(0, 0, 0, 0.7);
+    margin: 10px 30px 0px;
+}
+
+article li::marker{
+    color: #86483b;
+    font-weight: bold;
+}
+
+article hr{
+    border-color: rgba(134, 71, 59, 0.2);
+    margin: 20px;
+}
+
+article table{
+    margin: 20px;
+}
