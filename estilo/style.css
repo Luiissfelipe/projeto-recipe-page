@@ -20,6 +20,14 @@
     padding: 0px;
 }
 
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: white;
+}
+
 header #imagem{
     background: black url(../imagens/image-omelette.jpeg) no-repeat;
     background-size: cover;

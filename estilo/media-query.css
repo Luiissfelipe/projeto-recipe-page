@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    main{
+        width: 70vh;
+        margin: auto;
+    }
+
+    header{
+        padding: 20px;
+    }
+
+    header #imagem{
+        border-radius: 10px;
+    }
+}
